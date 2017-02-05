@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BookLib.BllManeger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAIAANQRcACAFQAAAAcEgQEAAoEkAAAAAFBAAAk=</HashCode>
+      <FileName>BllManeger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BookLib.ItemColection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAOAAAIAABQBAAAACAABBAQkAABAAAEAAgAAABAAAQk=</HashCode>
+      <FileName>ItemColection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BookLib.BookCopy" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BookCopy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BookLib.JornalCopy" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\JornalCopy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BookLib.Models.AbstractCopy" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAAQAAAgAAAAAAgAAAAgAAAAAAAEAAAQAA=</HashCode>
+      <FileName>Models\AbstractCopy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BookLib.Models.AbstractItem" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CggAAAAAAQEBAQAAiAgCEAQgCAAAAAAAAAAAIiAABAA=</HashCode>
+      <FileName>Models\AbstractItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BookLib.Models.Book" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Book.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BookLib.Models.SubcategoryManeger" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EnumLibery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Models.Jornal" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Models\Jornal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BookLib.Models.Utilles" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAABgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Utilles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Models.ToUx.EnItem" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ToUx\EnItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BookLib.Models.User.User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAgAAAAAQAACAAACAAAIAAAAAACAA=</HashCode>
+      <FileName>Models\User\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="BookLib.Contracts.IBoolResult" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Contracts\IBoolResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BookLib.Contracts.IMySerializable&lt;T&gt;" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IMySerializable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BookLib.Contracts.ISearch" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAACAA=</HashCode>
+      <FileName>Contracts\ISearch.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BookLib.Contracts.IUser" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Contracts\IUser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BookLib.Models.eLicense" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EnumLibery.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BookLib.Models.eStatus" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\EnumLibery.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BookLib.Models.eCategory" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAACgAAAAAA=</HashCode>
+      <FileName>Models\EnumLibery.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BookLib.Models.eSubcategory" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAgBAEAIAAAAAgABAAAgASRAUAAAQ=</HashCode>
+      <FileName>Models\EnumLibery.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

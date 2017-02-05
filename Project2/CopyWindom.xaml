@@ -1,0 +1,18 @@
+﻿<Window x:Class="Project2.CopyWindom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"
+        Title="CopyWindom" Height="218.182" Width="321.951">
+    <Grid>
+        <Button x:Name="btnSave" Content="Add New Copy" HorizontalAlignment="Left" Height="27" Margin="17,10,0,0" VerticalAlignment="Top" Width="278" Click="btnSave_Click"/>
+        <TextBlock x:Name="txtParentISBN" HorizontalAlignment="Left" Height="22" Margin="17,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <TextBlock x:Name="txtPublisher" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Text="Publisher" Margin="33,120,0,0"/>
+        <TextBlock x:Name="txtEdition" HorizontalAlignment="Left" Height="18" Margin="37,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" Text="Edition"/>
+        <TextBox x:Name="tbPublisher" HorizontalAlignment="Left" Height="18" Margin="123,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <DatePicker x:Name="dpEdtion" HorizontalAlignment="Left" Height="24" Margin="123,82,0,0" VerticalAlignment="Top" Width="95" Text="hgf"/>
+
+    </Grid>
+</Window>
